@@ -1,0 +1,36 @@
+body {
+    width: 600px;
+    margin: 4% auto;
+    font-family: cursive;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.calculator {
+    padding: 18px;
+    border-radius: 1px;
+}
+
+.input {
+    text-align: right;
+    border: 1px solid #5F9EA0;
+    border-radius: 1px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+}
+
+.numbers div {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-radius: 1px;
+    width: 104px;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    background-color: #F8F8FF;
+    cursor: pointer;
+}

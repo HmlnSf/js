@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="input" id="input"></div>
+      <div class="buttons">
+
+          <div class="numbers">
+            <div onclick="currenter(7)">7</div>
+            <div onclick="currenter(8)">8</div>
+            <div onclick="currenter(9)">9</div>
+            <div onclick="divide()">&divide;</div>
+          </div>
+          <div class="numbers">
+            <div onclick="currenter(4)">4</div>
+            <div onclick="currenter(5)">5</div>
+            <div onclick="currenter(6)">6</div>
+            <div onclick="multiply()">&times;</div>
+          </div>
+          <div class="numbers">
+            <div onclick="currenter(1)">1</div>
+            <div onclick="currenter(2)">2</div>
+            <div onclick="currenter(3)">3</div>
+            <div onclick="subtract()">-</div>
+          </div>
+          <div class="numbers">
+            <div onclick="currenter(0)">0</div>
+            <div id="result" onclick="calculation()">=</div>
+            <div id="clear" onclick="clearCalc()">C</div>
+            <div onclick="addition()">+</div>
+          </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
